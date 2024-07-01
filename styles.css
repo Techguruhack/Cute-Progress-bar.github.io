@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .my-progress-container {
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .my-progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #61cb81;
+    border-radius: 20px 0 0 20px;
+    transition: width 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .my-progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .my-progress-button {
+    border: none;
+    outline: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-progress-button:hover {
+    background-color: #ff1493;
+  }
+  
